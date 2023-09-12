@@ -1,0 +1,39 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+#app{
+    height: 100vh;
+}
+
+.p_c {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form_btn {
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.form_btn_primary {
+    color: #2eba78;
+}
+
+.form_btn_warning {
+    color: #e0001b;
+}
+
+.commonpagination {
+    margin-top: 15px;
+}
+
+.paginationbox {
+    display: flex;
+    justify-content: flex-end;
+}
